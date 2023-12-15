@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4A4454;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#app{
+    text-align: center;
+    background-color: #E8D5B5;
+    color: #4A4454;
+    padding: 20px;
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.removeButton {
+    background-color: #4A4454; 
+    color: #E8D5B5; 
+    padding: 8px;
+    cursor: pointer;
+  }
+
+ul{
+    list-style: none;
+    padding: 40px;
+   
+}
+
+.taskListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+  }
+
+#taskList {
+    /*  task list styling  */
+    list-style: none; 
+    padding: 0; 
+  }
+
+#taskIcon {
+    position: relative;
+    left: 30px; 
+    top: 50%;
+    color: #4A4454; 
+  }
+
+#newInput {
+    padding-left: 50px; 
+  }
+
+#clear-all-btn{
+    display: none;
+    color: #E8D5B5;
+    background-color: #4A4454;
+    margin-left: 75%;
+}
+  
