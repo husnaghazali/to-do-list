@@ -22,12 +22,20 @@ button{
     margin-top: 10px;
     cursor: pointer;
 }
+
 .removeButton {
     background-color: #4A4454; 
     color: #E8D5B5; 
     padding: 8px;
     cursor: pointer;
   }
+
+#clear-all-btn{
+    display: none;
+    color: #E8D5B5;
+    background-color: #4A4454;
+    margin-left: auto;
+}
 
 #newInput {
     padding: 8px; 
@@ -61,10 +69,5 @@ ul{
     color: #4A4454; 
   }
 
-#clear-all-btn{
-    display: none;
-    color: #E8D5B5;
-    background-color: #4A4454;
-    margin-left: 75%;
-}
+
   
