@@ -29,6 +29,10 @@ button{
     cursor: pointer;
   }
 
+#newInput {
+    padding: 8px; 
+}
+
 ul{
     list-style: none;
     padding: 40px;
@@ -55,10 +59,6 @@ ul{
     left: 30px; 
     top: 50%;
     color: #4A4454; 
-  }
-
-#newInput {
-    padding-left: 50px; 
   }
 
 #clear-all-btn{
