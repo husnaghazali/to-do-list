@@ -26,6 +26,7 @@ function addNew(){
 
         var newText = document.createElement('span');
         newText.appendChild(document.createTextNode(newInput));
+        listItem.appendChild(checkbox);
         listItem.appendChild(newText);
         
         var removeButton = document.createElement('button');
