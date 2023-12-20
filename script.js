@@ -16,7 +16,14 @@ function addNew(){
         
         var listItem = document.createElement('li');
         listItem.className = 'taskListItem';
-        
+
+        var checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.className = 'taskCheckbox';
+        checkbox.addEventListener('change', function () {
+        toggleCompletion(listItem);
+            });
+
         var newText = document.createElement('span');
         newText.appendChild(document.createTextNode(newInput));
         listItem.appendChild(newText);
