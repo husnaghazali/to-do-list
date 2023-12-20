@@ -44,6 +44,11 @@ function addNew(){
 
     }
 
+    function toggleCompletion(listItem) {
+        listItem.classList.toggle('completed-task');
+        updateClearButtonVisibility();
+    }
+
     const clearAllBtn = document.getElementById('clear-all-btn');
     clearAllBtn.addEventListener('click', clearAllTasks);
     // Add a function to update the visibility of the "Clear All" button
